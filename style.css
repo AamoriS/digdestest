@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(168, 182, 230);
+    padding: 10px 80px 10px 10px;
+    font-family: Arial;
+    color: rgb(75, 42, 88);
+}
+
+div {
+    text-align: justify;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 500px;
+} 
+
+.label {
+    font-size: 11px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid rgb(50, 107, 107);
+    width: 55px;
+    padding: 5px;
+    display: none;
+}
+
+.display {
+    display: flex;
+}
